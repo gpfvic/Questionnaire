@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<!-- Servlets -->
+	<servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>org.afelo.questionnaire.server.WelcomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserDentalExpServlet</servlet-name>
+        <servlet-class>org.afelo.questionnaire.server.UserDentalExpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserDentalExpServlet</servlet-name>
+        <url-pattern>/userdentalexp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserMissingToothServlet</servlet-name>
+        <servlet-class>org.afelo.questionnaire.server.UserMissingToothServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserMissingToothServlet</servlet-name>
+        <url-pattern>/usermissingtooth</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>QuestionnaireAnswerServlet</servlet-name>
+        <servlet-class>org.afelo.questionnaire.server.QuestionnaireAnswerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuestionnaireAnswerServlet</servlet-name>
+        <url-pattern>/questionnaireanswer</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserDetailsServlet</servlet-name>
+        <servlet-class>org.afelo.questionnaire.server.UserDetailsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserDetailsServlet</servlet-name>
+        <url-pattern>/userdetails</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+	<servlet>
+		<servlet-name>votesprocess</servlet-name>
+		<servlet-class>org.afelo.questionnaire.server.VotesProcessServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>votesprocess</servlet-name>
+		<url-pattern>/votesprocess</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>userinfoprocess</servlet-name>
+		<servlet-class>org.afelo.questionnaire.server.UserInfoProcessServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userinfoprocess</servlet-name>
+		<url-pattern>/userinfoprocess</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<jsp-file>login.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RemoteApi</servlet-name>
+		<servlet-class>com.google.apphosting.utils.remoteapi.RemoteApiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoteApi</servlet-name>
+		<url-pattern>/remote_api</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>welcome_info.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

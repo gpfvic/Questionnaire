@@ -1,0 +1,72 @@
+/* CSS Document */
+body{
+	margin-top:50px; 
+	font-size: 16px; 
+	background: #FAFAFA;  
+	font-family: 'Gill Sans'; 
+	color:#000000;
+	
+}
+td
+{
+	font-size:16px;
+	text-align:left;
+	font-family: 'Gill Sans';
+	color: #000000； 
+}
+p{
+	font-size:16px;
+	font-family: 'Gill Sans';
+	color: #000000； 
+}
+
+input
+{
+ border:solid 1px #333333;
+ vertical-align:middle;
+}
+.link_bottom
+{
+  border-bottom-color:#9B9B9B;
+  border-bottom-style:dotted;
+  border-bottom-width:1px;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+.link_bg_bottom
+{
+ background-image:url(images/link_bg.jpg);background-repeat:repeat-x;
+}
+a:link {COLOR: #464646; TEXT-DECORATION: none;font-size:12px; font-family:"ÀŒÃÂ"; }
+a:active {COLOR: #660000; TEXT-DECORATION: none;font-size:12px; font-family:"ÀŒÃÂ";}
+a:visited {COLOR: #464646; TEXT-DECORATION: none;font-size:12px; font-family:"ÀŒÃÂ";}
+a:hover {COLOR: #660000; TEXT-DECORATION: none;font-size:12px; font-family:"ÀŒÃÂ";}
+a.index_pic_link:link {COLOR: #13273f; TEXT-DECORATION: none;font-size:12px; font-family:"∫⁄ÃÂ"; }
+a.index_pic_link:active {COLOR: #660000; TEXT-DECORATION: none;font-size:12px; font-family:"∫⁄ÃÂ";}
+a.index_pic_link:visited {COLOR: #13273f; TEXT-DECORATION: none;font-size:12px; font-family:"∫⁄ÃÂ";}
+a.index_pic_link:hover {COLOR: #660000; TEXT-DECORATION: none;font-size:12px; font-family:"∫⁄ÃÂ";}
+.newslist td
+{
+    line-height:22px;
+}
+.spilte
+{
+    height:9px;
+    font-size:1px;
+    padding:0;
+}
+.nopadding td
+{
+	padding:0;
+	margin:0;
+}
+
+.time_font
+{
+ 
+	font-size:16px;
+	text-align:left;
+    font-family:"ÀŒÃÂ";	
+	color:#00275B;
+}

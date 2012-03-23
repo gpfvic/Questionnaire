@@ -1,0 +1,116 @@
+section 1
+Q.1-1
+dentist=1
+Patient=2
+Q.1-2
+yes=1
+no=2
+Q.1-3
+32-28=1
+27-21=2
+21-18=3
+18-10=4
+under 10 including none=5
+Q.1-4
+Yes=1
+No=2
+Undecided=3
+Q.1-5
+Yes=1
+No=2
+Undecided=3
+Q.1-6
+Dental bridges=1
+Removable dentrues=2
+Dental implant supported crown/bridge/denture=3
+Other dental treatment, e.g. fillings, extraction, etc.=4
+Q.1-7
+In NHS hospital=1
+In NHS dental clinic=2
+In Private clinic=3
+(Please specify)=4
+
+
+
+section 2
+Q.2-1
+Like Natural=1
+Fake, Artificial=2
+None of them=3
+Q.2-2
+Like Natural=1
+Compromised=2
+None of them=3
+Q.2-3
+Fixed, Comfortable=1
+Compromised=2
+None of them=3
+Q.2-4 
+user input text
+Q.2-5
+Minor grinding on teeth=1
+Significant grinding on teeth=2
+Minor Surgery=3
+Complex Surgery=4
+None of them=5
+Q.2-6
+Less than 250=1
+250-500=2
+500-2000=3
+More than 2000=4
+Q.2-6-1
+the corresponding numbers
+Q.2-6-2
+the corresponding numbers
+Q.2-6-3
+the corresponding numbers
+Q.2.6.e
+Do not value the treatment=1
+Can not afford to pay=2
+Object to paying=3
+others=4
+
+
+
+section 3
+Treatment A=1
+Treatment B=2
+Treatment C=3
+Treatment D=4
+
+
+
+section 4
+Q.4-1
+male=1
+female=2
+Q.4-2
+21-24=1
+25-34=2
+35-44=3
+45-54=4
+65-74=5
+75+  =6
+Q.4-3
+Degree=1
+Other professional/technical qualification/diploma after leaving school=2
+Highers or equivalent=3
+Standard grade/O levels or equivalent=4
+No qualification=5
+Q.4-4
+In paid work or self-employed – full time=1
+In paid work or self-employed – part time=2
+Unemployed and looking for work=3
+Retired=4
+Looking after the home or family –full time=5
+Not looking for work=6
+Not able to work=7
+In full-time education=8
+Q.4-4
+Less than £100=1
+£100 - £199=2
+£200 - £299=3
+£300 - £399=4
+£400 - £499=5
+£500 - £599=6
+£600 or more=7

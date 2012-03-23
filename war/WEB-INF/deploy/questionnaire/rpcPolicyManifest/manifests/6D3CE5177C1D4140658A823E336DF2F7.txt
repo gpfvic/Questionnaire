@@ -1,0 +1,2 @@
+serviceClass: org.afelo.questionnaire.client.GreetingService
+path: F49A27BD35C1C19E9E8130D1678CA953.gwt.rpc
